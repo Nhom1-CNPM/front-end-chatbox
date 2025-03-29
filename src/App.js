@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +23,16 @@ function App() {
 }
 
 export default App;
+*/
+import MyComponent from "./MyComponent";
+
+function App() {
+  return (
+    <div>
+      <MyComponent />
+    </div>
+  );
+}
+
+export default App;
+
